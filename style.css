@@ -7,11 +7,26 @@ html, body, *{
 
 body
 {background-image: url(Ball.JPG);
-background-position: center;
-background-size: cover;}
+background-position: center;}
 
 
-}
-.header{
+
+
+.title{
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     
 }
+
+.boxes
+{display: flex;
+font-size: 5rem;}
+
+.box1
+{   
+}
+
+
+
