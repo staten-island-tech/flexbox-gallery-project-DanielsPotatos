@@ -9,9 +9,6 @@ body
 {background-image: url(Ball.JPG);
 background-position: center;}
 
-
-
-
 .title{
     width: 25%;
     display: block;
@@ -20,13 +17,70 @@ background-position: center;}
     
 }
 
-.boxes
+.first-row
 {display: flex;
-font-size: 5rem;}
+font-size: 5rem;
+justify-content: space-around; }
 
-.box1
-{   
-}
+.first-box
+{   height: 28%;
+    width: 28%;
+    padding: 30px 30px;
+    border: 2rem solid black;
+    border-radius: 50px;
+    background-color: white;
+    text-align: center;} 
+
+
+.second-box
+{   height: 28%;
+    width: 28%;
+    padding: 30px 30px;
+    border: 2rem solid black;
+    border-radius: 50px;
+    background-color: white;
+    text-align: center;}
+
+
+.third-box
+{   height: 28%;
+    width: 28%;
+    padding: 30px 30px;
+    border: 2rem solid black;
+    border-radius: 50px;
+    background-color: white;
+    text-align: center;}
+
+.second-row
+{display: flex;
+    font-size: 5rem;
+    justify-content: space-around;}
+.fourth-box
+{   height: 28%;
+    width: 28%;
+    padding: 30px 30px;
+    border: 2rem solid black;
+    border-radius: 50px;
+    background-color: white;
+    text-align: center;} 
+    
+.fifth-box
+{   height: 28%;
+    width: 28%;
+    padding: 30px 30px;
+    border: 2rem solid black;
+    border-radius: 50px;
+    background-color: white;
+    text-align: center;} 
+    
+.sixth-box
+{   height: 28%;
+    width: 28%;
+    padding: 30px 30px;
+    border: 2rem solid black;
+    border-radius: 50px;
+    background-color: white;
+    text-align: center;} 
 
 
 
