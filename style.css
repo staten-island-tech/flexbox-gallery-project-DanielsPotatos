@@ -81,6 +81,38 @@ justify-content: space-around; }
     border-radius: 50px;
     background-color: white;
     text-align: center;} 
+    
+.third-row
+{display: flex;
+        font-size: 5rem;
+        justify-content: space-around;}
+.seventh-box
+{   height: 28%;
+    width: 28%;
+    padding: 30px 30px;
+    border: 2rem solid black;
+    border-radius: 50px;
+    background-color: white;
+    text-align: center;} 
+    
+.eighth-box
+{   height: 28%;
+    width: 28%;
+    padding: 30px 30px;
+    border: 2rem solid black;
+    border-radius: 50px;
+    background-color: white;
+    text-align: center;} 
+    
+.ninth-box
+{   height: 28%;
+    width: 28%;
+    padding: 30px 30px;
+    border: 2rem solid black;
+    border-radius: 50px;
+    background-color: white;
+    text-align: center;} 
+
 
 
 
