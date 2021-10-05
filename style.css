@@ -20,14 +20,15 @@ background-position: center;}
 .first-row
 {display: flex;
 font-size: 5rem;
-justify-content: space-around; }
+justify-content: space-around; 
+margin-bottom: 50px;}
 
 .first-box
 {   height: 28%;
     width: 28%;
     padding: 30px 30px;
     border: 2rem solid black;
-    border-radius: 50px;
+    border-radius: 5rem;
     background-color: white;
     text-align: center;} 
 
@@ -37,7 +38,7 @@ justify-content: space-around; }
     width: 28%;
     padding: 30px 30px;
     border: 2rem solid black;
-    border-radius: 50px;
+    border-radius: 5rem;
     background-color: white;
     text-align: center;}
 
@@ -47,16 +48,17 @@ justify-content: space-around; }
     width: 28%;
     padding: 30px 30px;
     border: 2rem solid black;
-    border-radius: 50px;
+    border-radius: 5rem;
     background-color: white;
     text-align: center;}
 
 .second-row
 {display: flex;
     font-size: 5rem;
-    justify-content: space-around;}
+    justify-content: space-around;
+    margin-bottom: 50px;}
 .fourth-box
-{   height: 28%;
+{   height: 50%;
     width: 28%;
     padding: 30px 30px;
     border: 2rem solid black;
@@ -65,7 +67,7 @@ justify-content: space-around; }
     text-align: center;} 
     
 .fifth-box
-{   height: 28%;
+{   height: 50%;
     width: 28%;
     padding: 30px 30px;
     border: 2rem solid black;
@@ -74,7 +76,7 @@ justify-content: space-around; }
     text-align: center;} 
     
 .sixth-box
-{   height: 28%;
+{   height: 50%;
     width: 28%;
     padding: 30px 30px;
     border: 2rem solid black;
@@ -87,7 +89,7 @@ justify-content: space-around; }
         font-size: 5rem;
         justify-content: space-around;}
 .seventh-box
-{   height: 28%;
+{   height: 50%;
     width: 28%;
     padding: 30px 30px;
     border: 2rem solid black;
@@ -96,7 +98,7 @@ justify-content: space-around; }
     text-align: center;} 
     
 .eighth-box
-{   height: 28%;
+{   height: 50%;
     width: 28%;
     padding: 30px 30px;
     border: 2rem solid black;
@@ -105,7 +107,7 @@ justify-content: space-around; }
     text-align: center;} 
     
 .ninth-box
-{   height: 28%;
+{   height: 50%;
     width: 28%;
     padding: 30px 30px;
     border: 2rem solid black;
@@ -113,6 +115,8 @@ justify-content: space-around; }
     background-color: white;
     text-align: center;} 
 
-
+.image
+{width: 75%;
+height: 75%;}
 
 
