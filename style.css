@@ -13,58 +13,61 @@ background-position: center;}
     width: 25%;
     display: block;
     margin-left: auto;
-    margin-right: auto;
-    
-}
+    margin-right: auto;}
 
-.first-row
+.boxes
 {display: flex;
 font-size: 5rem;
 justify-content: space-around; 
-margin-bottom: 50px;}
+font-family: 'Cabin', sans-serif;
+font-family: 'Noto Sans Display', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+flex-wrap: wrap;}
 
 .first-box
-{   height: 28%;
+{   height: 50%;
     width: 28%;
     padding: 30px 30px;
     border: 2rem solid black;
     border-radius: 5rem;
-    background-color: white;
-    text-align: center;} 
-
+    background-color: #FFD700;
+    text-align: center;
+    margin-bottom: 5rem;
+    color: #FFFF00;} 
 
 .second-box
-{   height: 28%;
+{   height: 50%;
     width: 28%;
     padding: 30px 30px;
     border: 2rem solid black;
     border-radius: 5rem;
-    background-color: white;
-    text-align: center;}
-
+    background-color: #B22222;
+    text-align: center;
+    margin-bottom: 5rem;
+    color: #FF8C00;}
 
 .third-box
-{   height: 28%;
+{   height: 50%;
     width: 28%;
     padding: 30px 30px;
     border: 2rem solid black;
     border-radius: 5rem;
-    background-color: white;
-    text-align: center;}
+    background-color: #1E90FF;
+    text-align: center;
+    margin-bottom: 5rem;
+    color: #87CEEB;}
 
-.second-row
-{display: flex;
-    font-size: 5rem;
-    justify-content: space-around;
-    margin-bottom: 50px;}
+
 .fourth-box
 {   height: 50%;
     width: 28%;
     padding: 30px 30px;
     border: 2rem solid black;
     border-radius: 50px;
-    background-color: white;
-    text-align: center;} 
+    background-color: #696969;
+    text-align: center;
+    margin-bottom: 5rem;
+    color: #DCDCDC;} 
     
 .fifth-box
 {   height: 50%;
@@ -72,8 +75,10 @@ margin-bottom: 50px;}
     padding: 30px 30px;
     border: 2rem solid black;
     border-radius: 50px;
-    background-color: white;
-    text-align: center;} 
+    background-color: #9400D3;
+    text-align: center;
+    margin-bottom: 5rem;
+    color: #FF00FF;} 
     
 .sixth-box
 {   height: 50%;
@@ -82,12 +87,9 @@ margin-bottom: 50px;}
     border: 2rem solid black;
     border-radius: 50px;
     background-color: white;
-    text-align: center;} 
+    text-align: center;
+    margin-bottom: 5rem;} 
     
-.third-row
-{display: flex;
-        font-size: 5rem;
-        justify-content: space-around;}
 .seventh-box
 {   height: 50%;
     width: 28%;
