@@ -1,127 +1,155 @@
-html, body, *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-size: 62.5%;
+html,
+body,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
 }
 
-body
-{background-image: url(image/Ball.JPG);
-background-position: center;}
+body {
+  background-image: url(image/Ball.JPG);
+  background-position: center;
+}
 
-.title{
-    width: 25%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;}
+.title {
+  width: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-.boxes
-{display: flex;
-font-size: 5rem;
-justify-content: space-around; 
-font-family: 'Cabin', sans-serif;
-font-family: 'Noto Sans Display', sans-serif;
-font-family: 'Source Sans Pro', sans-serif;
-flex-wrap: wrap;}
+.boxes {
+  display: flex;
+  font-size: 5rem;
+  justify-content: space-around;
+  font-family: "Cabin", sans-serif;
+  font-family: "Noto Sans Display", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  flex-wrap: wrap;
+}
 
-.first-box
-{   height: 50%;
-    width: 28%;
-    padding: 30px 30px;
-    border: 2rem solid #FFFF00;
-    border-radius: 5rem;
-    background-color: #FFD700;
-    text-align: center;
-    margin-bottom: 5rem;
-    color: #FFFF00;} 
+.poke-title {
+  font-size: 3rem;
+}
 
-.second-box
-{   height: 50%;
-    width: 28%;
-    padding: 30px 30px;
-    border: 2rem solid#FF8C00;
-    border-radius: 5rem;
-    background-color: #B22222;
-    text-align: center;
-    margin-bottom: 5rem;
-    color: #FF8C00;}
+.poke-card {
+  height: 50%;
+  width: 28%;
+  padding: 30px 30px;
+  border: 2rem solid #ffff00;
+  border-radius: 5rem;
+  background-color: #ffd700;
+  text-align: center;
+  margin-bottom: 5rem;
+  color: #ffff00;
+}
+.first-poke-card {
+  height: 50%;
+  width: 28%;
+  padding: 30px 30px;
+  border: 2rem solid #ffff00;
+  border-radius: 5rem;
+  background-color: #ffd700;
+  text-align: center;
+  margin-bottom: 5rem;
+  color: #ffff00;
+}
 
-.third-box
-{   height: 50%;
-    width: 28%;
-    padding: 30px 30px;
-    border: 2rem solid #87CEEB;
-    border-radius: 5rem;
-    background-color: #1E90FF;
-    text-align: center;
-    margin-bottom: 5rem;
-    color: #87CEEB;}
+.second-poke-card {
+  height: 50%;
+  width: 28%;
+  padding: 30px 30px;
+  border: 2rem solid#FF8C00;
+  border-radius: 5rem;
+  background-color: #b22222;
+  text-align: center;
+  margin-bottom: 5rem;
+  color: #ff8c00;
+}
 
+.third-poke-card {
+  height: 50%;
+  width: 28%;
+  padding: 30px 30px;
+  border: 2rem solid #87ceeb;
+  border-radius: 5rem;
+  background-color: #1e90ff;
+  text-align: center;
+  margin-bottom: 5rem;
+  color: #87ceeb;
+}
 
-.fourth-box
-{   height: 50%;
-    width: 28%;
-    padding: 30px 30px;
-    border: 2rem solid black;
-    border-radius: 50px;
-    background-color: #696969;
-    text-align: center;
-    margin-bottom: 5rem;
-    color: #DCDCDC;} 
-    
-.fifth-box
-{   height: 50%;
-    width: 28%;
-    padding: 30px 30px;
-    border: 2rem solid #FF69B4;
-    border-radius: 50px;
-    background-color: #9400D3;
-    text-align: center;
-    margin-bottom: 5rem;
-    color: #FF00FF;} 
-    
-.sixth-box
-{   height: 50%;
-    width: 28%;
-    padding: 30px 30px;
-    border: 2rem solid yellow;
-    border-radius: 50px;
-    background-color: black;
-    text-align: center;
-    margin-bottom: 5rem;
-    color: yellow;} 
-    
-.seventh-box
-{   height: 50%;
-    width: 28%;
-    padding: 30px 30px;
-    border: 2rem solid #008000;
-    border-radius: 50px;
-    background-color: #32CD32;
-    text-align: center;
-    color: #008000;} 
-    
-.eighth-box
-{   height: 50%;
-    width: 28%;
-    padding: 30px 30px;
-    border: 2rem solid #CD853F;
-    border-radius: 50px;
-    background-color: #A0522D;
-    text-align: center;
-    color: #CD853F;} 
-    
-.ninth-box
-{   height: 50%;
-    width: 28%;
-    padding: 30px 30px;
-    border: 2rem solid black;
-    border-radius: 50px;
-    background-color: #A0522D;
-    text-align: center;} 
+.fourth-poke-card {
+  height: 50%;
+  width: 28%;
+  padding: 30px 30px;
+  border: 2rem solid black;
+  border-radius: 50px;
+  background-color: #696969;
+  text-align: center;
+  margin-bottom: 5rem;
+  color: #dcdcdc;
+}
 
-.image
-{width: 75%;
-height: 75%;}
+.fifth-poke-card {
+  height: 50%;
+  width: 28%;
+  padding: 30px 30px;
+  border: 2rem solid #ff69b4;
+  border-radius: 50px;
+  background-color: #9400d3;
+  text-align: center;
+  margin-bottom: 5rem;
+  color: #ff00ff;
+}
 
+.sixth-poke-card {
+  height: 50%;
+  width: 28%;
+  padding: 30px 30px;
+  border: 2rem solid yellow;
+  border-radius: 50px;
+  background-color: black;
+  text-align: center;
+  margin-bottom: 5rem;
+  color: yellow;
+}
 
+.seventh-poke-card {
+  height: 50%;
+  width: 28%;
+  padding: 30px 30px;
+  border: 2rem solid #008000;
+  border-radius: 50px;
+  background-color: #32cd32;
+  text-align: center;
+  color: #008000;
+}
+
+.eighth-poke-card {
+  height: 50%;
+  width: 28%;
+  padding: 30px 30px;
+  border: 2rem solid #cd853f;
+  border-radius: 50px;
+  background-color: #a0522d;
+  text-align: center;
+  color: #cd853f;
+}
+
+.ninth-poke-card {
+  height: 50%;
+  width: 28%;
+  padding: 30px 30px;
+  border: 2rem solid PaleTurquoise;
+  border-radius: 50px;
+  background-color: RoyalBlue;
+  text-align: center;
+  color: PaleTurquoise;
+}
+
+.poke-img {
+  width: 75%;
+  height: 75%;
+}
