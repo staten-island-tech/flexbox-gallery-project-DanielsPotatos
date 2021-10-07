@@ -6,7 +6,7 @@ html, body, *{
 }
 
 body
-{background-image: url(Ball.JPG);
+{background-image: url(image/Ball.JPG);
 background-position: center;}
 
 .title{
@@ -28,7 +28,7 @@ flex-wrap: wrap;}
 {   height: 50%;
     width: 28%;
     padding: 30px 30px;
-    border: 2rem solid black;
+    border: 2rem solid #FFFF00;
     border-radius: 5rem;
     background-color: #FFD700;
     text-align: center;
@@ -39,7 +39,7 @@ flex-wrap: wrap;}
 {   height: 50%;
     width: 28%;
     padding: 30px 30px;
-    border: 2rem solid black;
+    border: 2rem solid#FF8C00;
     border-radius: 5rem;
     background-color: #B22222;
     text-align: center;
@@ -50,7 +50,7 @@ flex-wrap: wrap;}
 {   height: 50%;
     width: 28%;
     padding: 30px 30px;
-    border: 2rem solid black;
+    border: 2rem solid #87CEEB;
     border-radius: 5rem;
     background-color: #1E90FF;
     text-align: center;
@@ -73,7 +73,7 @@ flex-wrap: wrap;}
 {   height: 50%;
     width: 28%;
     padding: 30px 30px;
-    border: 2rem solid black;
+    border: 2rem solid #FF69B4;
     border-radius: 50px;
     background-color: #9400D3;
     text-align: center;
@@ -84,29 +84,32 @@ flex-wrap: wrap;}
 {   height: 50%;
     width: 28%;
     padding: 30px 30px;
-    border: 2rem solid black;
+    border: 2rem solid yellow;
     border-radius: 50px;
-    background-color: white;
+    background-color: black;
     text-align: center;
-    margin-bottom: 5rem;} 
+    margin-bottom: 5rem;
+    color: yellow;} 
     
 .seventh-box
 {   height: 50%;
     width: 28%;
     padding: 30px 30px;
-    border: 2rem solid black;
+    border: 2rem solid #008000;
     border-radius: 50px;
-    background-color: white;
-    text-align: center;} 
+    background-color: #32CD32;
+    text-align: center;
+    color: #008000;} 
     
 .eighth-box
 {   height: 50%;
     width: 28%;
     padding: 30px 30px;
-    border: 2rem solid black;
+    border: 2rem solid #CD853F;
     border-radius: 50px;
-    background-color: white;
-    text-align: center;} 
+    background-color: #A0522D;
+    text-align: center;
+    color: #CD853F;} 
     
 .ninth-box
 {   height: 50%;
@@ -114,7 +117,7 @@ flex-wrap: wrap;}
     padding: 30px 30px;
     border: 2rem solid black;
     border-radius: 50px;
-    background-color: white;
+    background-color: #A0522D;
     text-align: center;} 
 
 .image
