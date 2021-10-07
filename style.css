@@ -19,7 +19,7 @@ body {
   margin-right: auto;
 }
 
-.boxes {
+.cards {
   display: flex;
   font-size: 5rem;
   justify-content: space-around;
@@ -27,6 +27,7 @@ body {
   font-family: "Noto Sans Display", sans-serif;
   font-family: "Source Sans Pro", sans-serif;
   flex-wrap: wrap;
+  text-align: center;
 }
 
 .poke-title {
@@ -40,7 +41,6 @@ body {
   border: 2rem solid #ffff00;
   border-radius: 5rem;
   background-color: #ffd700;
-  text-align: center;
   margin-bottom: 5rem;
   color: #ffff00;
 }
