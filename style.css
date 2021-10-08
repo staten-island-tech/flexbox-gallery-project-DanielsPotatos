@@ -17,6 +17,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 5rem;
 }
 
 .cards {
@@ -28,22 +29,12 @@ body {
   font-family: "Source Sans Pro", sans-serif;
   flex-wrap: wrap;
   text-align: center;
+  align-items: center;
 }
-
 .poke-title {
   font-size: 3rem;
 }
 
-.poke-card {
-  height: 50%;
-  width: 28%;
-  padding: 30px 30px;
-  border: 2rem solid #ffff00;
-  border-radius: 5rem;
-  background-color: #ffd700;
-  margin-bottom: 5rem;
-  color: #ffff00;
-}
 .first-poke-card {
   height: 50%;
   width: 28%;
@@ -51,10 +42,9 @@ body {
   border: 2rem solid #ffff00;
   border-radius: 5rem;
   background-color: #ffd700;
-  text-align: center;
   margin-bottom: 5rem;
   color: #ffff00;
-  box-shadow: 12px 12px 2px 1px; rgba(0, 0, 255, .2);
+  box-shadow: 10px 5px 5px black;
 }
 
 .second-poke-card {
@@ -64,9 +54,9 @@ body {
   border: 2rem solid#FF8C00;
   border-radius: 5rem;
   background-color: #b22222;
-  text-align: center;
   margin-bottom: 5rem;
   color: #ff8c00;
+  box-shadow: 10px 5px 5px black;
 }
 
 .third-poke-card {
@@ -76,9 +66,9 @@ body {
   border: 2rem solid #87ceeb;
   border-radius: 5rem;
   background-color: #1e90ff;
-  text-align: center;
   margin-bottom: 5rem;
   color: #87ceeb;
+  box-shadow: 10px 5px 5px black;
 }
 
 .fourth-poke-card {
@@ -88,9 +78,9 @@ body {
   border: 2rem solid black;
   border-radius: 50px;
   background-color: #696969;
-  text-align: center;
   margin-bottom: 5rem;
   color: #dcdcdc;
+  box-shadow: 10px 5px 5px black;
 }
 
 .fifth-poke-card {
@@ -100,9 +90,9 @@ body {
   border: 2rem solid #ff69b4;
   border-radius: 50px;
   background-color: #9400d3;
-  text-align: center;
   margin-bottom: 5rem;
   color: #ff00ff;
+  box-shadow: 10px 5px 5px black;
 }
 
 .sixth-poke-card {
@@ -112,9 +102,9 @@ body {
   border: 2rem solid yellow;
   border-radius: 50px;
   background-color: black;
-  text-align: center;
   margin-bottom: 5rem;
   color: yellow;
+  box-shadow: 10px 5px 5px black;
 }
 
 .seventh-poke-card {
@@ -124,8 +114,9 @@ body {
   border: 2rem solid #008000;
   border-radius: 50px;
   background-color: #32cd32;
-  text-align: center;
   color: #008000;
+  box-shadow: 10px 5px 5px black;
+  margin-bottom: 5rem;
 }
 
 .eighth-poke-card {
@@ -135,8 +126,9 @@ body {
   border: 2rem solid #cd853f;
   border-radius: 50px;
   background-color: #a0522d;
-  text-align: center;
   color: #cd853f;
+  box-shadow: 10px 5px 5px black;
+  margin-bottom: 5rem;
 }
 
 .ninth-poke-card {
@@ -146,11 +138,13 @@ body {
   border: 2rem solid PaleTurquoise;
   border-radius: 50px;
   background-color: RoyalBlue;
-  text-align: center;
   color: PaleTurquoise;
+  box-shadow: 10px 5px 5px black;
+  margin-bottom: 5rem;
 }
 
 .poke-img {
   width: 75%;
   height: 75%;
+  margin-bottom: 10px;
 }
