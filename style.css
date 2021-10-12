@@ -37,7 +37,7 @@ body {
 }
 
 .first-poke-card {
-  height: 50%;
+  height: 28%;
   width: 28%;
   padding: 30px 30px;
   border: 2rem solid #ffff00;
@@ -46,10 +46,11 @@ body {
   margin-bottom: 5rem;
   color: #ffff00;
   box-shadow: 10px 5px 5px black;
+  transition: all 0.4s ease-in-out;
 }
 
 .second-poke-card {
-  height: 50%;
+  height: 28%;
   width: 28%;
   padding: 30px 30px;
   border: 2rem solid#FF8C00;
@@ -61,7 +62,7 @@ body {
 }
 
 .third-poke-card {
-  height: 50%;
+  height: 28%;
   width: 28%;
   padding: 30px 30px;
   border: 2rem solid #87ceeb;
@@ -73,7 +74,7 @@ body {
 }
 
 .fourth-poke-card {
-  height: 50%;
+  height: 28%;
   width: 28%;
   padding: 30px 30px;
   border: 2rem solid black;
@@ -85,7 +86,7 @@ body {
 }
 
 .fifth-poke-card {
-  height: 50%;
+  height: 28%;
   width: 28%;
   padding: 30px 30px;
   border: 2rem solid #ff69b4;
@@ -97,7 +98,7 @@ body {
 }
 
 .sixth-poke-card {
-  height: 50%;
+  height: 28%;
   width: 28%;
   padding: 30px 30px;
   border: 2rem solid yellow;
@@ -109,7 +110,7 @@ body {
 }
 
 .seventh-poke-card {
-  height: 50%;
+  height: 28%;
   width: 28%;
   padding: 30px 30px;
   border: 2rem solid #008000;
@@ -121,7 +122,7 @@ body {
 }
 
 .eighth-poke-card {
-  height: 50%;
+  height: 28%;
   width: 28%;
   padding: 30px 30px;
   border: 2rem solid #cd853f;
@@ -146,6 +147,35 @@ body {
 
 .poke-img {
   width: 75%;
-  height: 200px;
+  height: 75%;
   margin-bottom: 10px;
+}
+
+.first-poke-card:hover {
+  transform: scale(1.17);
+}
+.second-poke-card:hover {
+  transform: scale(1.17);
+}
+.third-poke-card:hover {
+  transform: scale(1.17);
+}
+.fourth-poke-card:hover {
+  transform: scale(1.17);
+}
+
+.fifth-poke-card:hover {
+  transform: scale(1.17);
+}
+.sixth-poke-card:hover {
+  transform: scale(1.17);
+}
+.seventh-poke-card:hover {
+  transform: scale(1.17);
+}
+.eighth-poke-card:hover {
+  transform: scale(1.17);
+}
+.ninth-poke-card:hover {
+  transform: scale(1.17);
 }
