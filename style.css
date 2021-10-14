@@ -59,6 +59,7 @@ body {
   margin-bottom: 5rem;
   color: #ff8c00;
   box-shadow: 10px 5px 5px black;
+  transition: all 0.4s ease-in-out;
 }
 
 .third-poke-card {
@@ -71,6 +72,7 @@ body {
   margin-bottom: 5rem;
   color: #87ceeb;
   box-shadow: 10px 5px 5px black;
+  transition: all 0.4s ease-in-out;
 }
 
 .fourth-poke-card {
@@ -83,6 +85,7 @@ body {
   margin-bottom: 5rem;
   color: #dcdcdc;
   box-shadow: 10px 5px 5px black;
+  transition: all 0.4s ease-in-out;
 }
 
 .fifth-poke-card {
@@ -95,6 +98,7 @@ body {
   margin-bottom: 5rem;
   color: #ff00ff;
   box-shadow: 10px 5px 5px black;
+  transition: all 0.4s ease-in-out;
 }
 
 .sixth-poke-card {
@@ -107,6 +111,7 @@ body {
   margin-bottom: 5rem;
   color: yellow;
   box-shadow: 10px 5px 5px black;
+  transition: all 0.4s ease-in-out;
 }
 
 .seventh-poke-card {
@@ -119,6 +124,7 @@ body {
   color: #008000;
   box-shadow: 10px 5px 5px black;
   margin-bottom: 5rem;
+  transition: all 0.4s ease-in-out;
 }
 
 .eighth-poke-card {
@@ -131,6 +137,7 @@ body {
   color: #cd853f;
   box-shadow: 10px 5px 5px black;
   margin-bottom: 5rem;
+  transition: all 0.4s ease-in-out;
 }
 
 .ninth-poke-card {
@@ -143,39 +150,53 @@ body {
   color: PaleTurquoise;
   box-shadow: 10px 5px 5px black;
   margin-bottom: 5rem;
+  transition: all 0.4s ease-in-out;
 }
 
 .poke-img {
   width: 75%;
   height: 75%;
   margin-bottom: 10px;
+  animation-fill-mode: none;
+  animation-delay: 1s;
 }
 
 .first-poke-card:hover {
   transform: scale(1.17);
 }
 .second-poke-card:hover {
-  transform: scale(1.17);
+  transform: scale(1.18);
 }
 .third-poke-card:hover {
-  transform: scale(1.17);
+  transform: scale(1.19);
 }
 .fourth-poke-card:hover {
-  transform: scale(1.17);
+  transform: scale(1.2);
 }
 
 .fifth-poke-card:hover {
-  transform: scale(1.17);
+  transform: scale(1.21);
 }
 .sixth-poke-card:hover {
-  transform: scale(1.17);
+  transform: scale(1.22);
 }
 .seventh-poke-card:hover {
-  transform: scale(1.17);
+  transform: scale(1.23);
 }
 .eighth-poke-card:hover {
-  transform: scale(1.17);
+  transform: scale(1.24);
 }
 .ninth-poke-card:hover {
-  transform: scale(1.17);
+  transform: scale(1.25);
 }
+@media (hover: hover) {
+  a:hover {
+    background: yellow;
+  }
+}
+
+.poke-title:hover {
+  transform: translateY(-8px);
+}
+
+@keyframes;
