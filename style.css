@@ -18,6 +18,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 5rem;
+  animation: 1s ease-out 0s 1 slideInFromLeft;
 }
 
 .cards {
@@ -39,65 +40,65 @@ body {
 .first-poke-card {
   height: 28%;
   width: 28%;
-  padding: 30px 30px;
+  padding: 3rem 3rem;
   border: 2rem solid #ffff00;
   border-radius: 5rem;
   background-color: #ffd700;
   margin-bottom: 5rem;
   color: #ffff00;
-  box-shadow: 10px 5px 5px black;
+  box-shadow: 1rem 5px 5px black;
   transition: all 0.4s ease-in-out;
 }
 
 .second-poke-card {
   height: 28%;
   width: 28%;
-  padding: 30px 30px;
+  padding: 3rem 3rem;
   border: 2rem solid#FF8C00;
   border-radius: 5rem;
   background-color: #b22222;
   margin-bottom: 5rem;
   color: #ff8c00;
-  box-shadow: 10px 5px 5px black;
+  box-shadow: 1rem 5px 5px black;
   transition: all 0.4s ease-in-out;
 }
 
 .third-poke-card {
   height: 28%;
   width: 28%;
-  padding: 30px 30px;
+  padding: 3rem 3rem;
   border: 2rem solid #87ceeb;
   border-radius: 5rem;
   background-color: #1e90ff;
   margin-bottom: 5rem;
   color: #87ceeb;
-  box-shadow: 10px 5px 5px black;
+  box-shadow: 1rem 5px 5px black;
   transition: all 0.4s ease-in-out;
 }
 
 .fourth-poke-card {
   height: 28%;
   width: 28%;
-  padding: 30px 30px;
+  padding: 3rem 3rem;
   border: 2rem solid black;
-  border-radius: 50px;
+  border-radius: 5rem;
   background-color: #696969;
   margin-bottom: 5rem;
   color: #dcdcdc;
-  box-shadow: 10px 5px 5px black;
+  box-shadow: 1rem 5px 5px black;
   transition: all 0.4s ease-in-out;
 }
 
 .fifth-poke-card {
   height: 28%;
   width: 28%;
-  padding: 30px 30px;
+  padding: 3rem 3rem;
   border: 2rem solid #ff69b4;
-  border-radius: 50px;
+  border-radius: 5rem;
   background-color: #9400d3;
   margin-bottom: 5rem;
   color: #ff00ff;
-  box-shadow: 10px 5px 5px black;
+  box-shadow: 1rem 5px 5px black;
   transition: all 0.4s ease-in-out;
 }
 
@@ -157,37 +158,35 @@ body {
   width: 75%;
   height: 75%;
   margin-bottom: 10px;
-  animation-fill-mode: none;
-  animation-delay: 1s;
 }
 
 .first-poke-card:hover {
-  transform: scale(1.17);
+  transform: scale(1.15);
 }
 .second-poke-card:hover {
-  transform: scale(1.18);
+  transform: scale(1.2);
 }
 .third-poke-card:hover {
-  transform: scale(1.19);
+  transform: scale(1.25);
 }
 .fourth-poke-card:hover {
-  transform: scale(1.2);
+  transform: scale(1.3);
 }
 
 .fifth-poke-card:hover {
-  transform: scale(1.21);
+  transform: scale(1.35);
 }
 .sixth-poke-card:hover {
-  transform: scale(1.22);
+  transform: scale(1.4);
 }
 .seventh-poke-card:hover {
-  transform: scale(1.23);
+  transform: scale(1.45);
 }
 .eighth-poke-card:hover {
-  transform: scale(1.24);
+  transform: scale(1.5);
 }
 .ninth-poke-card:hover {
-  transform: scale(1.25);
+  transform: scale(1.55);
 }
 @media (hover: hover) {
   a:hover {
@@ -199,6 +198,15 @@ body {
   transform: translateY(-8px);
 }
 
-@keyframes;
-transform {
+.words:hover {
+  transform: skew(-20deg);
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
