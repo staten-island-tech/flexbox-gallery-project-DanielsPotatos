@@ -203,8 +203,8 @@ body {
   transform: skew(-20deg);
 }
 
-.section:hover {
-  transform: rotate3d(-50deg);
+.poke-img:hover {
+  transform: scale(0.9);
 }
 
 @keyframes slideInFromLeft {
@@ -214,8 +214,4 @@ body {
   100% {
     transform: translateX(0);
   }
-}
-
-.poke-img:hover {
-  transform: scale(0.95);
 }
