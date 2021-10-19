@@ -39,7 +39,6 @@ body {
   bottom: 2rem;
 }
 
-
 .poke-card {
   height: 28%;
   width: 28%;
@@ -49,9 +48,7 @@ body {
   background-color: white;
   margin-bottom: 5rem;
   color: #8b0000;
-
-
-
+}
 
 .poke-img {
   width: 75%;
@@ -61,10 +58,6 @@ body {
   position: relative;
   bottom: 2rem;
 }
-
-
-
-
 
 .poke-card:hover {
   transform: scale(1.15);
@@ -106,17 +99,9 @@ body {
   .poke-card {
     width: 70%;
   }
-
-}
-@media (max-width: 350px) {
-  .poke-card {
-    height: 20rem;
-  }
-
 }
 @media (max-width: 350px) {
   .poke-card {
     height: 20rem;
   }
 }
-
